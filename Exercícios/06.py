@@ -76,5 +76,12 @@ Divisao = num1 / num2
 print('Resultados:')
 print('Adição:', str(Soma), "\n"'Subtração:', str(Subtracao), "\n"'Multiplicação:', str(Multiplicacao), "\n"'Divisão:', str(Divisao))
 
+# 08. Crie um programa que receba a idade de uma pessoa e calcule quantos dias ela já vivei (aproximadamente, desconsidere anos bissextos).
+
+idade = int(input("Digite a sua idade em anos: "))
+dias_vividos = idade * 365
+
+print('De acordo com os meus cálculos, você viveu aproximadamente', dias_vividos, 'dias. Parabéns! A sua vida importa.') # Nota @viviancunha: Poderia pensar em algo assim para o Setembro Amarelo, né?
+
 
 
