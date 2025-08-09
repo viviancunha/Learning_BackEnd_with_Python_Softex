@@ -1,5 +1,5 @@
 # 02. Mensagens múltiplas
-#Mostre três frases diferentes usando três comandos print() separados. 
+# Mostre três frases diferentes usando três comandos print() separados. 
 
 print('O céu é azul.' "\n"'A grama é verde.' "\n"'A água é transparente.')
 
