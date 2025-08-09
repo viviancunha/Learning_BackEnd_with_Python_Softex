@@ -27,5 +27,3 @@ This repository records my learning journey during the Back-End development cour
 
 - Python 3.x (main programming language)
 - Django (planned for future web development)
-- Django (planned for future web development)
-
