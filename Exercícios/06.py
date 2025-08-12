@@ -84,4 +84,3 @@ dias_vividos = idade * 365
 print('De acordo com os meus cálculos, você viveu aproximadamente', dias_vividos, 'dias. Parabéns! A sua vida importa.') # Nota @viviancunha: Poderia pensar em algo assim para o Setembro Amarelo, né?
 
 
-
