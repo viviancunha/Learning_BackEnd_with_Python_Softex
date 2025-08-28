@@ -70,6 +70,26 @@ notas_aluno2 = [[nota_av1, nota_av2, nota_av3]]
 notas = [notas_aluno1, notas_aluno2]
 
 for i in notas:
-    media = sum(aluno[0]) / len(aluno[0])
+    media = sum(notas_aluno1[0]) / len(notas_aluno2[0])
     print(f'Média do aluno: {media}')
 
+# Usando list comprehension, crie um tabuleiro de xadrez vazio e depois adicione todas as peças do jogo na posição inicial. Para melhorar a visualização do tabuleiro, identifique as posições do tabuleiro da seguinte forma:
+# [ ] - para posições vazias
+# tor - para a torre
+# cav - para o cavalo
+# bis - para o bispo
+# rai - para a rainha
+# rei - para o rei
+# pea - para o peão
+# Por fim imprima o tabuleiro na tela, deixando cada linha da matriz abaixo da outra. (Dica você pode usar a biblioteca numpy para auxiliar na impressão da matriz)
+
+import numpy as np
+tabuleiro = [['tor', 'cav', 'bis', 'rai', 'rei', 'bis', 'cav', 'tor'],
+             ['pea', 'pea', 'pea', 'pea', 'pea', 'pea', 'pea', 'pea'],
+             ['[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]'],
+             ['[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]'],
+             ['[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]'],
+             ['[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]', '[ ]'],
+             ['pea', 'pea', 'pea', 'pea', 'pea', 'pea', 'pea', 'pea'],
+             ['tor', 'cav', 'bis', 'rei', 'rai', 'bis', 'cav', 'tor']]
+print(np.array(tabuleiro))
