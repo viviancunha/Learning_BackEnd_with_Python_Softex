@@ -36,5 +36,11 @@ print('telefone' in contato) # Assim retorna False
 
 palavras = {'maçã', 'banana', 'laranja', 'banana', 'maçã'}
 
-def qtdd_palavras(palavras):
-
+def qtdd_palavras(palavras): 
+    contagem = {}
+    for palavra in palavras:
+        if palavra in contagem:
+            contagem[palavra] += 1
+        else:
+            contagem[palavra] = 1
+    return contagem
