@@ -175,7 +175,7 @@ print(f'Nome: {cachorro1.nome}, Idade: {cachorro1.idade}, Espécie: {cachorro1.e
 print(f'Espécie acessada pela classe: {Cachorro.especie}')
 print("-" * 30)
 
-FALTA INSERIR AS ÚLTIMAS DUAS QUESTÕES 
+# FALTA INSERIR AS ÚLTIMAS DUAS QUESTÕES 
 
 
 
