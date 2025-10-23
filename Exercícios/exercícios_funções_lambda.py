@@ -41,3 +41,5 @@ print(produto)
 frutas = ["banana", "uva", "maçã", "laranja"]
 ordenadas_ultimo = sorted(frutas, key=lambda x: x[-1])
 print(ordenadas_ultimo)
+
+# ------------------------------FIM!------------------------------
